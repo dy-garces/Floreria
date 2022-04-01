@@ -31,3 +31,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 80px;
 }
+.lineas{
+    height: 10px;
+    margin-left: 50%;
+    margin-right: 50%;
+    background-color: red;
+}
