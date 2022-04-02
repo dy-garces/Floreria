@@ -1,6 +1,7 @@
 .colorHeader {
 
-    background-color: #B2D925;
+    background-color: #1CC24E;
+  
 }
 
 .textColor {
@@ -13,8 +14,36 @@
     background-color: #3E5902;
 
 }
+<<<<<<< HEAD
+.colorLogin{
+    background-color:  #1E2601;
+=======
 
 .colorLogin {
     background-color: #1E2601;
+>>>>>>> RamaFloreria
 
 }
+.colorIndicadores{
+
+    color: #B2D925;
+}
+
+.descripcion{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+
+}
+.titulo{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}
+
+
+@media (max-width: 690px){
+    .col{
+
+        margin: 0%;
+    }
+  }
