@@ -1,20 +1,27 @@
-.colorHeader{
+.colorHeader {
 
     background-color: #1CC24E;
   
 }
-.textColor{
 
-    color:white
+.textColor {
 
+    color: white
 }
-.colorBtn{
+
+.colorBtn {
 
     background-color: #3E5902;
 
 }
+<<<<<<< HEAD
 .colorLogin{
     background-color:  #1E2601;
+=======
+
+.colorLogin {
+    background-color: #1E2601;
+>>>>>>> RamaFloreria
 
 }
 .colorIndicadores{
