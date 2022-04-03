@@ -1,7 +1,7 @@
 .colorHeader {
 
     background-color: #1CC24E;
-  
+
 }
 
 .textColor {
@@ -14,16 +14,10 @@
     background-color: #3E5902;
 
 }
-<<<<<<< HEAD
 .colorLogin{
     background-color:  #1E2601;
-=======
-
-.colorLogin {
-    background-color: #1E2601;
->>>>>>> RamaFloreria
-
 }
+
 .colorIndicadores{
 
     color: #B2D925;
@@ -46,4 +40,22 @@
 
         margin: 0%;
     }
-  }
+}
+
+.img{
+    max-width: 100%;
+}
+
+.gallery{
+    background-color:oldlace;
+    padding: 80px 0;
+}
+
+.gallery img{
+    background-color:white;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
