@@ -1,0 +1,58 @@
+.colorHeader {
+    background-color: #1CC24E;
+}
+
+.textColor {
+    color: white
+}
+
+.colorBtn {
+    background-color: #3E5902;
+}
+
+.colorLogin{
+    background-color:  #1E2601;
+
+}
+.colorIndicadores{
+
+    color: #B2D925;
+}
+
+.descripcion{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+
+}
+.titulo{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vw;
+
+}
+
+
+@media (max-width: 690px){
+    .col{
+
+        margin: 0%;
+    }
+}
+
+.img{
+    max-width: 100%;
+}
+
+.gallery{
+    background-color:oldlace;
+    padding: 80px 0;
+}
+
+.gallery img{
+    background-color:white;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
