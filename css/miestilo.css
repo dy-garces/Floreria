@@ -1,18 +1,13 @@
 .colorHeader {
-
     background-color: #1CC24E;
-
 }
 
 .textColor {
-
     color: white
 }
 
 .colorBtn {
-
     background-color: #3E5902;
-
 }
 
 .colorLogin{
@@ -32,7 +27,8 @@
 .titulo{
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 80px;
+    font-size: 5vw;
+
 }
 
 
