@@ -68,7 +68,56 @@
         </nav>
         </div>
     </header>
-    
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div class="mt-4 p-5 mb-4 bg-secondary text-white rounded">
+                        <h1 class="iniciose">Administrar Pedidos</h1>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4 p-3 border mt-5 mb-5 rounded shadow">
+                    <form action="#" method="post">
+                        <div class="mt-2 mb-2">
+                            <label for="nombres" class="form-label">Nombre pedido</label>
+                            <input type="text" class="form-control" id="nompro" name="nombres" placeholder="Ingrese el nombre del producto" required>
+                        </div>
+                        <div class="mt-2 mb-2">
+                            <label for="nombres" class="form-label">Categoria del pedido</label>
+                            <select class="form-select">
+                                <option>Arbustos</option>
+                                <option>Plantas</option>
+                                <option>Flores</option>
+                                <option>Maceteros</option>
+                                </select>
+                        </div>
+                        <div class="mt-2 mb-2">
+                            <label for="cant" class="form-label">Cantidad</label>
+                            <input type="number" max="10000" min="1" class="form-control" id="canti" name="cant" placeholder="Ingrese una cantidad" required>
+                        </div>
+                        <div class="mt-2 mb-2">
+                            <label for="fecha" class="form-label">Fecha actualización</label>
+                            <input type="date" class="form-control" id="fech" name="fecha" placeholder="Ingrese una fecha" required>
+                        </div>
+                        <div class="row">
+                            <button type="button" class="btn btn-success btn-md mt-3 ">Actualizar</button>
+                            <button type="button" class="btn btn-success btn-md mt-3">Agregar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+
+    </main>
+
     <footer>
         <div class="container-fluid p-0 colorHeader">
             <nav class="navbar navbar-expand-sm navbar-light ">
