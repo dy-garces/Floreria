@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/miestilo.css">
     <!-- Latest compiled and minified CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -16,13 +15,12 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <script src="https://kit.fontawesome.com/dd5c9f7503.js" crossorigin="anonymous"></script>
-
+    
     <title>Floreria</title>
 
 </head>
 
-<body class="b-0">
-
+<body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark colorHeader">
             <div class="container-fluid">
@@ -55,13 +53,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contacto</a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a class="nav-link" href="QuienesSomos.html">Quienes Somos</a>
                         </li>
                     </ul>
                     <div class="d-flex justify-content-start text-light">
                         <div class="p-2">
-                        <i class="fa-solid fa-user d-flex justify-content-center" style="font-size: 40px;"></i></div>
+                        <i class="fa-solid fa-user d-flex justify-content-center" style="font-size: 40px;"></i>
+                    </div>
                         <button type="button" class="btn btn-outline-success text-light">Iniciar Sesion</button>
                     </div>
                 </div>
@@ -70,54 +69,74 @@
         </div>
     </header>
 
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8">
-                    <div class="mt-4 p-5 mb-4 bg-secondary text-white rounded">
-                        <h1 class="iniciose">Administrar Productos</h1>
-                    </div>
-                </div>
-                <div class="col-sm-2"></div>
-            </div>
 
-            <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4 p-3 border mt-5 mb-5 rounded shadow">
-                    <form action="#" method="post">
-                        <div class="mt-2 mb-2">
-                            <label for="nombres" class="form-label">Nombre producto</label>
-                            <input type="text" class="form-control" id="nompro" name="nombres" placeholder="Ingrese el nombre del producto" required>
-                        </div>
-                        <div class="mt-2 mb-2">
-                            <label for="nombres" class="form-label">Categoria del producto</label>
-                            <select class="form-select">
-                                <option>Arbustos</option>
-                                <option>Plantas</option>
-                                <option>Flores</option>
-                                <option>Maceteros</option>
-                                </select>
-                        </div>
-                        <div class="mt-2 mb-2">
-                            <label for="cant" class="form-label">Cantidad</label>
-                            <input type="number" max="10000" min="1" class="form-control" id="canti" name="cant" placeholder="Ingrese una cantidad" required>
-                        </div>
-                        <div class="mt-2 mb-2">
-                            <label for="fecha" class="form-label">Fecha actualización</label>
-                            <input type="date" class="form-control" id="fech" name="fecha" placeholder="Ingrese una fecha" required>
-                        </div>
-                        <div class="row">
-                            <button type="button" class="btn btn-success btn-md mt-3 ">Actualizar</button>
-                            <button type="button" class="btn btn-success btn-md mt-3">Agregar</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-sm-4"></div>
+    <section>
+        <div class="p-5 bg-light">
+            <div class="container">
+                <h1 class="display-3 text-center bg-light">ARBOLES</h1>
             </div>
         </div>
+    </section>
+    
+    <section>
+        <div class="container p-0  ">
+            <div class="row d-flex justify-content-center mx-0">
+                <div class="col-lg-3 col-sm-6 text-center border shadow m-3 ">
+                    <img src="img/arbol1.jpg" alt="" class="img-fluid">
+                    <h3>Acer Platanoides</h3>
+                    <p>Precio: 35000</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center border shadow m-3">
+                    <img src="img/arbol2.jpg" alt="" class="img-fluid">
+                    <h3>Palmera</h3>
+                    <p>Precio: 13900</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center border shadow m-3">
+                    <img src="img/arbol3.jpg" alt="" class="img-fluid">
+                    <h3>Acer Japonico</h3>
+                    <p>Precio: 50000</p>
+                </div>
+            </div>
 
-    </main>
+            <div class="row d-flex justify-content-center mx-0">
+                <div class="col-lg-3 col-sm-6 text-center border shadow m-3">
+                    <img src="img/arbol4.jpg" alt="" class="img-fluid">
+                    <h3>Acer Saccharium</h3>
+                    <p>Precio: 35000</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center border shadow m-3">
+                    <img src="img/arbol5.jpg" alt="" class="img-fluid">
+                    <h3>Celtis</h3>
+                    <p>Precio: 32900</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center border shadow m-3">
+                    <img src="img/arbol6.jpg" alt="" class="img-fluid">
+                    <h3>Ciruelo</h3>
+                    <p>Precio: 34900</p>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center mx-0">
+                <div class="col-lg-3 col-sm-6 text-center border shadow m-3">
+                    <img src="img/arbol7.jpg" alt="" class="img-fluid">
+                    <h3>Ginkgo</h3>
+                    <p>Precio: 39900</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center border shadow m-3">
+                    <img src="img/arbol8.jpg" alt="" class="img-fluid">
+                    <h3>Crespom</h3>
+                    <p>Precio: 34900</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center border shadow m-3">
+                    <img src="img/arbol9.jpg" alt="" class="img-fluid">
+                    <h3>Ligustro</h3>
+                    <p>Precio: 29900</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <footer>
         <div class="container-fluid p-0 colorHeader">
@@ -164,8 +183,12 @@
                     </ul>
                 </div>
             </nav>
+
         </div>
     </footer>
+
+
+
 </body>
 
 </html>
