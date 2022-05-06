@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/miestilo.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/mijs.js"></script>
+
+    <script src="https://kit.fontawesome.com/dd5c9f7503.js" crossorigin="anonymous"></script>
+
+    <title>Floreria</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark colorHeader">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/el-planeta-tierra.png" alt="Logo" style="width: 70px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Flores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Plantas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Arboles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Maceteros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Jardineria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="QuienesSomos.html">Quienes Somos</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-start text-light">
+                        <div class="p-2">
+                            <i class="fa-solid fa-user d-flex justify-content-center" style="font-size: 40px;"></i>
+                        </div>
+                        <button type="button" class="btn btn-outline-success text-light">Iniciar Sesion</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </header>
+
+    <section>
+
+        <div class="container-fluid">
+            <div class="p-5 bg-light">
+                <div class="container">
+                    <h1 class="display-3 text-center bg-light">HISTORIAL DE COMPRAS</h1>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container">
+
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+            <div class="row">
+                <div class="col-12">
+                    <table id="myTable">
+                        <tr class="header">
+                            <th style="width:40%;">Nombre del producto</th>
+                            <th style="width:40%;">Numero de compra</th>
+                            <th style="width:20%;">Opciones</th>
+                        </tr>
+                        <tr>
+                            <td>Azalea</td>
+                            <td>
+                                3115119816351
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-success dropdown-toggle"
+                                    data-bs-toggle="dropdown">Opciones</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Detalle</a>
+                                    <a class="dropdown-item" href="#">Seguimiento de compra</a>
+                                </div>
+
+                            </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>Girasol</td>
+                            <td>7665468946</td>
+
+                            <td>
+                                <button type="button" class="btn btn-success dropdown-toggle"
+                                    data-bs-toggle="dropdown">Opciones</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Detalle</a>
+                                    <a class="dropdown-item" href="#">Seguimiento de compra</a>
+                                </div>
+
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Alerce</td>
+                            <td>843216916468</td>
+
+                            <td>
+
+                                <button type="button" class="btn btn-success dropdown-toggle"
+                                    data-bs-toggle="dropdown">Opciones</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Detalle</a>
+                                    <a class="dropdown-item" href="#">Seguimiento de compra</a>
+                                </div>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Rastrillo</td>
+                            <td>67165461876716</td>
+
+                            <td>
+                                <button type="button" class="btn btn-success dropdown-toggle"
+                                    data-bs-toggle="dropdown">Opciones</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Detalle</a>
+                                    <a class="dropdown-item" href="#">Seguimiento de compra</a>
+                                </div>
+
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Abono</td>
+                            <td>12348602762</td>
+
+                            <td>
+                                <button type="button" class="btn btn-success dropdown-toggle"
+                                    data-bs-toggle="dropdown">Opciones</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Detalle</a>
+                                    <a class="dropdown-item" href="#">Seguimiento de compra</a>
+                                </div>
+
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Sauce</td>
+                            <td>6716549854556</td>
+
+                            <td>
+                                <button type="button" class="btn btn-success dropdown-toggle"
+                                    data-bs-toggle="dropdown">Opciones</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Detalle</a>
+                                    <a class="dropdown-item" href="#">Seguimiento de compra</a>
+                                </div>
+
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Lorem</td>
+                            <td>67165445234523456</td>
+
+                            <td>
+                                <button type="button" class="btn btn-success dropdown-toggle"
+                                    data-bs-toggle="dropdown">Opciones</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Detalle</a>
+                                    <a class="dropdown-item" href="#">Seguimiento de compra</a>
+                                </div>
+
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Canelo</td>
+                            <td>89984556552</td>
+
+                            <td>
+                                <button type="button" class="btn btn-success dropdown-toggle"
+                                    data-bs-toggle="dropdown">Opciones</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Detalle</a>
+                                    <a class="dropdown-item" href="#">Seguimiento de compra</a>
+                                </div>
+
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Naranjo</td>
+                            <td>35683761876716</td>
+
+                            <td>
+                                <button type="button" class="btn btn-success dropdown-toggle"
+                                    data-bs-toggle="dropdown">Opciones</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Detalle</a>
+                                    <a class="dropdown-item" href="#">Seguimiento de compra</a>
+                                </div>
+
+
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container-fluid p-0 colorHeader">
+            <nav class="navbar navbar-expand-sm navbar-light ">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="QuienesSomos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="#">Contancto</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="#">Fundacion</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" href="#">Redes Sociales</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
