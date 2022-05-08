@@ -22,6 +22,9 @@
 </head>
 
 <body class="b-0">
+    <script src="js/rutvalidador.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/Funciones.js"></script>
 
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark colorHeader">
@@ -90,7 +93,8 @@
                     <form action="login.html" method="post">
                         <div class="mt-2 mb-2">
                             <label for="Rut" class="form-label">Rut</label>
-                            <input type="text" class="form-control" id="rut" name="rut" placeholder="Ingrese su rut" required>
+                            <input type="text" class="form-control" id="txt-rut" name="rut" placeholder="Ingrese su rut" required>
+                            <button id="btn-validar" class="btn-btn-sucees mt-3">Validar Rut</button>
                         </div>
                         <div class="mt-2 mb-2">
                             <label for="nombres" class="form-label">Nombres</label>
