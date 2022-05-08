@@ -18,9 +18,23 @@
 
     <title>Floreria</title>
 
+    <script src="js/jquery-3.6.0.min.js"></script>
+
 </head>
 
 <body>
+
+    <script>
+        $(document).ready(function(){
+            $.getJSON("https://mindicador.cl/api", function(data){
+                $("#dolar").text("Valor Dolar en pesos chilenos: $"+ data.dolar.valor);
+                $("#euro").text("Valor Euro en pesos chilenos: $" +data.euro.valor);
+            }).fail(function(){
+                console.log("Error API")
+            });
+        });
+    </script>
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark colorHeader">
             <div class="container-fluid">
@@ -76,6 +90,33 @@
         <div class="p-5 bg-light">
             <div class="container">
                 <h1 class="display-3 text-center bg-light">CARRITO DE COMPRA</h1>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="">
+                    <div class="col-sm-12">
+                        <h3 class="text-center ">Estimado Cliente le recordamos que si usted es extranjero,
+                            tome en cuenta los valores de su moneda local, a continuación le entregamos divisas con las que trabajamos: </h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 d-flex justify-content-end">
+                    <div class="card" style="width: 22rem; margin-top: 50px; color: darkseagreen;">
+                        <div class="card-body">
+                            <h4 id="dolar">Cargando....</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 d-flex justify-content-start">
+                    <div class="card" style="width: 22rem; margin-top: 50px; color: burlywood;">
+                        <div class="card-body">
+                            <h4 id="euro">Cargando....</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
