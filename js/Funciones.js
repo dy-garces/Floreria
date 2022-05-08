@@ -1,19 +1,20 @@
-$(document).on('click', '#btn-validar', ()=>{
-    let rut=$('#txt-rut').val();
-    console.log(rut)
-    let RutValidador=new RutValidador(rut)
+$(document).on('click', '#btn-validar', () => {
+    let rut = $('#txt-rut').val();
+    console.log(rut);
+    let rutValidador = new RutValidador(rut)
 
-    if(RutValidador.esValido){
-        $('#resultado').html(mostrarMensaje('success', `Rut valido ${RutValidador.formato()}`));
+    if (rutValidador.esValido) {
+        $('#resultado').html(mostrarMensaje('success', `Rut Válido ${rutValidador.formato()}`));
         return;
     }
-    $('#resultado').html(mostrarMensaje('danger', 'Rut invalido'))
+
+    $('#resultado').html(mostrarMensaje('danger','Rut inválido'));
 })
 
-function mostrarMensaje(tipo, mensaje){
+function mostrarMensaje(tipo, mensaje) {
     return `
-        <div class='alert alert-${tipo} mt-2'>
-            Strong>${mensaje}</strong>
+        <div class='alert alert-${tipo} mt-5'>
+            <strong>${mensaje}</strong>
         </div>
     `;
 }
